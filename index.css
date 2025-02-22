@@ -1,0 +1,97 @@
+body{
+    background-color:rgb(20, 20, 20) ;
+}
+
+
+.flexcontainer{
+    background-color: white;
+    width: 800px;
+    height: 800px;
+    margin-right:300px;
+    margin-top: 30px;
+    margin-bottom: auto;
+   margin-left:auto;
+   padding-left: 100px;
+   padding-top: 10px;
+   align-items: center;
+align-content: center;
+}
+
+.first {
+    display: flex;
+    flex-direction: column
+}
+
+.second {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.second {
+    display: flex;
+    flex-direction: unset;
+}
+
+.ico {
+    display: flex;
+    flex-direction: inherit;
+}
+.borders1{
+    background-color: blueviolet;
+    border-width: 30%;
+    border-style: dotted;
+    border-radius: 20%;
+    border-color: blueviolet;
+}
+
+.borders2 {
+    background-color: blueviolet;
+    border-width: 30%;
+    border-style: dotted;
+    border-radius: 20%;
+    border-color: blueviolet;
+}
+
+.borders3 {
+    background-color: blueviolet;
+    border-width: 50%;
+    border-style: dotted;
+    border-radius: 20%;
+    border-color: blueviolet;
+    color: black;
+}
+
+
+
+img{
+    border-style: double;
+    border-width: 5%;
+    border-radius: 50%;
+}
+
+.slight{
+    background-color: rgb(240, 205, 240);
+    color: blueviolet;
+       border-width: 0%;
+    border-radius: 10%;
+    box-sizing: 5%
+}
+
+.slight1 {
+    background-color: rgb(240, 205, 240);
+    color: blueviolet;
+        border-width: 0%;
+    border-radius: 10%;
+    box-sizing: 5%
+}
+
+.slight2 {
+    background-color: rgb(240, 205, 240);
+    color: blueviolet;
+       border-width: 0%;
+    border-radius: 10%;
+    box-sizing:border-box
+    
+}
+
+
