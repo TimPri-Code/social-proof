@@ -5,7 +5,7 @@ body{
 
 .flexcontainer{
     background-color: white;
-    width: 800px;
+    width: 900px;
     height: 800px;
     margin-right:300px;
     margin-top: 30px;
@@ -35,13 +35,18 @@ align-content: center;
 .ico {
     display: flex;
     flex-direction: inherit;
+    padding-left: 60%;
+    padding-right: 5%;
+   
 }
 .borders1{
     background-color: blueviolet;
     border-width: 30%;
     border-style: dotted;
-    border-radius: 20%;
+    border-radius: 30%;
     border-color: blueviolet;
+    align-items: center;
+    box-sizing: content-box;
 }
 
 .borders2 {
@@ -50,6 +55,7 @@ align-content: center;
     border-style: dotted;
     border-radius: 20%;
     border-color: blueviolet;
+    align-items: center;
 }
 
 .borders3 {
@@ -74,14 +80,14 @@ img{
     color: blueviolet;
        border-width: 0%;
     border-radius: 10%;
-    box-sizing: 5%
+           box-sizing: border-box;
 }
 
 .slight1 {
     background-color: rgb(240, 205, 240);
     color: blueviolet;
-        border-width: 0%;
-    border-radius: 10%;
+        border-width: 10%;
+    border-radius: 5%;
     box-sizing: 5%
 }
 
