@@ -3,20 +3,22 @@ background{
    background-color: hsl(300, 43%, 22%)
 }
 
-*{
-    margin:0;
-    padding: 0;
- align-items: center;
-   
-    }
 
-body{
+
+.flex container{
      background-color: white;
+     align-items: center;
+     width: auto;
+     height: auto;
      margin: auto;  
      padding: auto;
      align-items: center;
      display: flex;
      flex-wrap: wrap;
+}
+
+.div1{
+  width: 100%;
 }
 
 
@@ -25,6 +27,7 @@ body{
   font-size: 8px;
   font-weight: bold;
 }
+
 
 
 
