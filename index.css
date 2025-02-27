@@ -5,10 +5,21 @@
   box-sizing: border-box;
 }
 
+background{
+  background-color: black;
+}
+
 
 body{
 background-color: white;
-min-height: 100vh;
+width: auto;
+height: auto;
+margin-top: 20px;
+margin-left: auto;
+padding-top: 20px;
+padding-right: auto;
+display: flex;
+flex-wrap: wrap;
     }
 
 .para{
@@ -22,6 +33,18 @@ min-height: 100vh;
     43%,
     22%);
     font-weight: bolder;
+}
+
+.div1{
+  width: 100%;
+  padding: 50px;
+  flex-direction: row;
+  display: flex;
+}
+.div2{
+    padding: 5px;
+  display: flex;
+  flex-direction: row;
 }
 
 p{
@@ -61,19 +84,46 @@ span{
     background-color: hsl(300,
       43%,
       22%);
-    border-style:hidden;
-    border-width: 5px;
+    border-style:double;
+
     box-sizing: content-box;
     border-radius: 1%;
     width: 150px;
-    height: 70px;
-    padding-left: 10px;
-    padding-top: 15px;
-          
-        font-size: 2%;
-        color:white
- 
-}
+    height: 50px;
+    padding: 10px;
+   font-size: 2%;
+   color:white
+   }
+
+     .border1 {
+       background-color: hsl(300,
+           43%,
+           22%);
+        border-style: double;
+      
+       box-sizing: content-box;
+       border-radius: 1%;
+       width: 150px;
+       height: 50px;
+       padding: 10px;
+       font-size: 2%;
+       color: white
+     }
+
+         .border2 {
+           background-color: hsl(300,
+               43%,
+               22%);
+            border-style:outset;
+                       box-sizing: content-box;
+           border-radius: 1%;
+           width: 150px;
+           height: 50px;
+           padding: 10px;
+           font-size: 2%;
+           color: rgb(111, 22, 103)
+    
+         }
 
 .image{
   width: 15px;
