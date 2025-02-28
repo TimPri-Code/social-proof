@@ -14,8 +14,8 @@ body{
 background-color: white;
 width: auto;
 height: auto;
-margin-top: 20px;
-margin-left: auto;
+margin-top: 10px;
+margin-left: 20px;
 padding-top: 20px;
 padding-right: auto;
 display: flex;
@@ -40,19 +40,24 @@ flex-wrap: wrap;
   padding: 50px;
   flex-direction: row;
   display: flex;
+  margin-left: 50px;
 }
 .div2{
     padding: 5px;
   display: flex;
   flex-direction: row;
+  margin-left: 70px;
 }
 
 p{
   font-size: 7px;
 }
 
-span{
+.name{
   font-size: 5px;
+  position: relative;
+  bottom: 10px;
+  left:10px;
 }
 
 .small{
@@ -70,64 +75,91 @@ span{
         box-sizing: content-box;
         border-radius: 3px;
         width: 150px;
-        height: 20px;
-        padding: auto;
-        align-content: center;
+        height: 10px;
+        padding: 10px;
+       align-content: center;
         color: hsl(300,
           43%,
           22%);
           font-size: 10%;
           font-weight: bold;
+          margin-left: 50px;
 }
 
-.borders{
+.border1{
     background-color: hsl(300,
       43%,
       22%);
-    border-style:double;
+    border-style:hidden;
 
     box-sizing: content-box;
-    border-radius: 1%;
-    width: 150px;
-    height: 50px;
-    padding: 10px;
+    border-radius: 5%;
+    width: 120px;
+    height: 70px;
+    padding: 20px;
    font-size: 2%;
-   color:white
+   color:white;
+    position: relative;
+  bottom: 20px;
+  margin-right: 20px;
    }
 
-     .border1 {
+     .border2 {
        background-color: hsl(300,
            43%,
            22%);
-        border-style: double;
-      
-       box-sizing: content-box;
-       border-radius: 1%;
-       width: 150px;
-       height: 50px;
-       padding: 10px;
+        border-style: hidden;
+      box-sizing: content-box;
+       border-radius: 5%;
+       width: 120px;
+       height: 70px;
+       padding: 20px;
        font-size: 2%;
-       color: white
-     }
+       color: white;
+       margin-right: 20px;
+position:relative;
+bottom:5px;
+       
+       }
 
-         .border2 {
+         .border3 {
            background-color: hsl(300,
                43%,
                22%);
-            border-style:outset;
-                       box-sizing: content-box;
-           border-radius: 1%;
-           width: 150px;
-           height: 50px;
-           padding: 10px;
+            border-style:hidden;
+            box-sizing: content-box;
+           border-radius: 5%;
+           width: 120px;
+           height: 70px;
+           padding:20px;
            font-size: 2%;
-           color: rgb(111, 22, 103)
-    
+           color: rgb(246, 241, 245);
+          position: relative;
+           top: 5px;
+        
          }
 
+         .pink{
+          color: rgb(235, 133, 218);
+        flex-direction: column;
+        display: flex;
+        position: relative;
+        left: 25px;
+        bottom: 10px;
+          
+         }
+
+                 
+             
+         
 .image{
   width: 15px;
   height: 15px;
   border-radius: 50px;
 }
 
+@media only screen and (max-width: 375px) {
+  body {
+    background-color: rgb(243, 219, 230);
+  }
+}
